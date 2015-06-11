@@ -9,6 +9,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%=new Date() %>
+	<%=new Date()%>
 </body>
 </html>
