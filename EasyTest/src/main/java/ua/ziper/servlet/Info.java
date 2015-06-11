@@ -22,8 +22,7 @@ public class Info extends HttpServlet {
 			throws ServletException, IOException {
 		PrintWriter writer = res.getWriter();
 		res.setContentType("text/html");
-		Date day = new Date();
-		writer.print("Day = " + day);
+		writer.print("<p align='center'> This is a DIspatcher Servlet </p>");
 		writer.close();
 	}
 
