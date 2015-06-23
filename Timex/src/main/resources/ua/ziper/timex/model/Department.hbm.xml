@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 22.06.2015 16:17:20 by Hibernate Tools 3.4.0.CR1 -->
+
+<hibernate-mapping>
+    
+    <class name="ua.ziper.timex.model.Department" table="department">
+        <id name="DepartmentId" type="java.lang.Integer" column="DepartmentId" >
+            <generator class="assigned"/>
+        </id>
+        <property name="name" type="java.lang.String" column="name"/>
+    </class>
+    
+</hibernate-mapping>
